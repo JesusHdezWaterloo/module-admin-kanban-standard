@@ -13,6 +13,14 @@ import com.clean.core.domain.VolatileDomainObject;
  */
 public class MoveTarea extends VolatileDomainObject {
 
+    public static MoveTarea from(TareaDomain tarea, ColumnaDomain columna) {
+        return new MoveTarea(tarea, columna);
+    }
+
+    public static MoveTarea from(Integer idTarea, Integer idColumna) {
+        return new MoveTarea(idTarea, idColumna);
+    }
+    
     private final Integer idTarea;
     private final Integer idColumna;
 

@@ -8,7 +8,7 @@ import java.util.List;
 
 public interface TareaUseCase extends CRUDUseCase<TareaDomain> {
 
-    public List<TareaDomain> findByColumnaProyecto(ColumnaProyectVolatile colProy) throws Exception;
+    public List<TareaDomain> findByColumnaProyecto(ColumnaProyectVolatile.LightWeigth colProy) throws Exception;
 
     public TareaDomain move(MoveTarea move) throws Exception;
 }
