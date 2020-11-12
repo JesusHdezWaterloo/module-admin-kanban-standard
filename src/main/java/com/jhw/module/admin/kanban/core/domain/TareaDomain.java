@@ -7,7 +7,7 @@ package com.jhw.module.admin.kanban.core.domain;
 
 import com.jhw.module.admin.kanban.core.utils.FibonacciNumber;
 import com.jhw.utils.clean.EntityDomainObjectValidated;
-import java.util.Date;
+import java.time.LocalDate;
 import javax.validation.constraints.*;
 
 /**
@@ -42,7 +42,7 @@ public class TareaDomain extends EntityDomainObjectValidated implements Comparab
     @NotNull(message = "#msg.module.admin.validation.tarea_proyecto_null#")
     private ProyectoDomain proyectoFk;
 
-    private Date lastChange = new Date();
+    private LocalDate lastChange = LocalDate.now();
 
     public TareaDomain() {
     }
@@ -57,11 +57,11 @@ public class TareaDomain extends EntityDomainObjectValidated implements Comparab
         this.proyectoFk = proyectoFk;
     }
 
-    public Date getLastChange() {
+    public LocalDate getLastChange() {
         return lastChange;
     }
 
-    public void setLastChange(Date lastChange) {
+    public void setLastChange(LocalDate lastChange) {
         this.lastChange = lastChange;
     }
 
