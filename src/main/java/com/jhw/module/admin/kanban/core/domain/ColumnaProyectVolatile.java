@@ -13,25 +13,20 @@ import com.clean.core.domain.VolatileDomainObject;
  */
 public class ColumnaProyectVolatile extends VolatileDomainObject {
 
-    private final ProyectoDomain proyecto;
-    private final ColumnaDomain columna;
+    private final Integer idProyecto;
+    private final Integer idColumna;
 
     public ColumnaProyectVolatile(ProyectoDomain proyecto, ColumnaDomain columna) {
-        this.proyecto = proyecto;
-        this.columna = columna;
+        this.idProyecto = proyecto.getIdProyecto();
+        this.idColumna = columna.getIdColumna();
     }
 
-    public ProyectoDomain getProyecto() {
-        return proyecto;
+    public Integer getIdProyecto() {
+        return idProyecto;
     }
 
-    public ColumnaDomain getColumna() {
-        return columna;
-    }
-
-    @Override
-    public String toString() {
-        return "ColumnaProyect{" + "proyecto=" + proyecto + ", columna=" + columna + '}';
+    public Integer getIdColumna() {
+        return idColumna;
     }
 
 }

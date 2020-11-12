@@ -10,7 +10,7 @@ public interface ProyectoUseCase extends CRUDUseCase<ProyectoDomain> {
      *
      * @param proyecto
      * @throws Exception
-     */
+     *
     public void updateRemote(ProyectoDomain proyecto) throws Exception;
 
     /**
@@ -18,6 +18,6 @@ public interface ProyectoUseCase extends CRUDUseCase<ProyectoDomain> {
      *
      * @param proyecto
      * @throws Exception
-     */
-    public boolean hasRemote(ProyectoDomain proyecto);
+     *
+    public boolean hasRemote(ProyectoDomain proyecto);*/
 }

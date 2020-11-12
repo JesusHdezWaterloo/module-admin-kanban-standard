@@ -8,4 +8,6 @@ import java.util.List;
 public interface TareaUseCase extends CRUDUseCase<TareaDomain> {
 
     public List<TareaDomain> findByColumnaProyecto(ColumnaProyectVolatile colProy) throws Exception;
+
+    public TareaDomain move(Integer idTarea, Integer idColumna) throws Exception;
 }
