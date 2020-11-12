@@ -21,6 +21,11 @@ public class ColumnaProyectVolatile extends VolatileDomainObject {
         this.idColumna = columna.getIdColumna();
     }
 
+    public ColumnaProyectVolatile(Integer idProyecto, Integer idColumna) {
+        this.idProyecto = idProyecto;
+        this.idColumna = idColumna;
+    }
+
     public Integer getIdProyecto() {
         return idProyecto;
     }
