@@ -47,6 +47,10 @@ public class ColumnaProyectVolatile extends VolatileDomainObject {
             return new LightWeigth(colProy.getProyecto().getIdProyecto(), colProy.getColumna().getIdColumna());
         }
 
+        public static LightWeigth from(Integer idProyecto, Integer idColumna) {
+            return new LightWeigth(idProyecto, idColumna);
+        }
+        
         public final Integer idProyecto;
         public final Integer idColumna;
 
