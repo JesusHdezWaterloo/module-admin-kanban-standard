@@ -23,11 +23,11 @@ public class ModuleAdminKanbanConstants {
     //-----------------------COLUMNS-----------------------\\
     public static final String COLUMMA_GENERAL_PATH = KANBAN_GENERAL_PATH + "/columna";
 
-    public static final String COLUMNS_FIND_FIRST_PATH = "/first";
-    public static final RequestMethod COLUMNS_FIND_FIRST_METHOD = RequestMethod.GET;
+    public static final String COLUMNA_FIND_FIRST_PATH = "/first";
+    public static final RequestMethod COLUMNA_FIND_FIRST_METHOD = RequestMethod.GET;
 
-    public static final String COLUMNS_FIND_LAST_PATH = "/last";
-    public static final RequestMethod COLUMNS_FIND_LAST_METHOD = RequestMethod.GET;
+    public static final String COLUMNA_FIND_LAST_PATH = "/last";
+    public static final RequestMethod COLUMNA_FIND_LAST_METHOD = RequestMethod.GET;
 
     //-----------------------PRIORIDAD-----------------------\\
     public static final String PRIORIDAD_GENERAL_PATH = KANBAN_GENERAL_PATH + "/prioridad";
@@ -41,8 +41,8 @@ public class ModuleAdminKanbanConstants {
     //-----------------------TAREA-----------------------\\
     public static final String TAREA_GENERAL_PATH = KANBAN_GENERAL_PATH + "/tarea";
 
-    public static final String TAREA_FIND_PATH = "/find/{" + COL_PROY + "}";
-    public static final RequestMethod TAREA_FIND_METHOD = RequestMethod.GET;
+    public static final String TAREA_FIND_BY_COL_PROY_PATH = "/find/{" + COL_PROY + "}";
+    public static final RequestMethod TAREA_FIND_BY_COL_PROY_METHOD = RequestMethod.GET;
 
     public static final String TAREA_MOVE_PATH = "/move/{" + TAREA + "}/{" + COLUMNA + "}";
     public static final RequestMethod TAREA_MOVE_METHOD = RequestMethod.GET;
