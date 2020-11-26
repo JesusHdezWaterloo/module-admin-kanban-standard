@@ -19,6 +19,7 @@ public class ModuleAdminKanbanConstants {
     public static final String COL_PROY = "columna_proyecto";
     public static final String TAREA = "tarea";
     public static final String COLUMNA = "columna";
+    public static final String PROYECTO = "proyecto";
 
     //-----------------------COLUMNS-----------------------\\
     public static final String COLUMMA_GENERAL_PATH = KANBAN_GENERAL_PATH + "/columna";
@@ -41,10 +42,10 @@ public class ModuleAdminKanbanConstants {
     //-----------------------TAREA-----------------------\\
     public static final String TAREA_GENERAL_PATH = KANBAN_GENERAL_PATH + "/tarea";
 
-    public static final String TAREA_FIND_BY_COL_PROY_PATH = "/find/{" + COL_PROY + "}";
+    public static final String TAREA_FIND_BY_COL_PROY_PATH = "/find/{" + PROYECTO + "}/{" + COLUMNA + "}";
     public static final RequestMethod TAREA_FIND_BY_COL_PROY_METHOD = RequestMethod.GET;
 
-    public static final String TAREA_MOVE_PATH = "/move/{" + TAREA + "}/{" + COLUMNA + "}";
+    public static final String TAREA_MOVE_PATH = "/move";
     public static final RequestMethod TAREA_MOVE_METHOD = RequestMethod.GET;
 
 }

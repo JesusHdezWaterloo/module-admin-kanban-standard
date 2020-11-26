@@ -20,9 +20,12 @@ public class MoveTarea extends VolatileDomainObject {
     public static MoveTarea from(Integer idTarea, Integer idColumna) {
         return new MoveTarea(idTarea, idColumna);
     }
-    
-    private final Integer idTarea;
-    private final Integer idColumna;
+
+    private Integer idTarea;
+    private Integer idColumna;
+
+    public MoveTarea() {
+    }
 
     public MoveTarea(TareaDomain tarea, ColumnaDomain columna) {
         this.idTarea = tarea.getIdTarea();
@@ -40,6 +43,14 @@ public class MoveTarea extends VolatileDomainObject {
 
     public Integer getIdColumna() {
         return idColumna;
+    }
+
+    public void setIdTarea(Integer idTarea) {
+        this.idTarea = idTarea;
+    }
+
+    public void setIdColumna(Integer idColumna) {
+        this.idColumna = idColumna;
     }
 
 }
