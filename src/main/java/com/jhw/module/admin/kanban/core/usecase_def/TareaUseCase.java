@@ -1,7 +1,7 @@
 package com.jhw.module.admin.kanban.core.usecase_def;
 
-import com.clean.core.app.usecase.CRUDUseCase;
-import com.clean.core.utils.Licenced;
+import com.root101.clean.core.app.usecase.CRUDUseCase;
+import com.root101.clean.core.utils.Licenced;
 import com.jhw.module.admin.kanban.core.domain.ColumnaProyectVolatile;
 import com.jhw.module.admin.kanban.core.domain.MoveTarea;
 import com.jhw.module.admin.kanban.core.domain.TareaDomain;

@@ -6,7 +6,7 @@
 package com.jhw.module.admin.kanban.core.domain;
 
 import com.jhw.module.admin.kanban.core.utils.FibonacciNumber;
-import com.jhw.utils.clean.EntityDomainObjectValidated;
+import com.root101.utils.clean.EntityDomainObjectValidated;
 import java.time.LocalDate;
 import javax.validation.constraints.*;
 

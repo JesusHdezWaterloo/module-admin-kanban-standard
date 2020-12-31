@@ -5,7 +5,7 @@
  */
 package com.jhw.module.admin.kanban.core.domain;
 
-import com.jhw.utils.clean.EntityDomainObjectValidated;
+import com.root101.utils.clean.EntityDomainObjectValidated;
 import javax.validation.constraints.*;
 
 /**

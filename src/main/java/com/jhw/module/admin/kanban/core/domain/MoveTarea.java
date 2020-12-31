@@ -5,7 +5,7 @@
  */
 package com.jhw.module.admin.kanban.core.domain;
 
-import com.clean.core.domain.VolatileDomainObject;
+import com.root101.clean.core.domain.VolatileDomainObject;
 
 /**
  *

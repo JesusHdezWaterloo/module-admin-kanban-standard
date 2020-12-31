@@ -5,8 +5,8 @@
  */
 package com.jhw.module.admin.kanban.core.domain;
 
-import com.clean.core.utils.SortBy;
-import com.jhw.utils.clean.EntityDomainObjectValidated;
+import com.root101.clean.core.utils.SortBy;
+import com.root101.utils.clean.EntityDomainObjectValidated;
 import java.io.File;
 import java.time.LocalDate;
 import java.util.StringTokenizer;
