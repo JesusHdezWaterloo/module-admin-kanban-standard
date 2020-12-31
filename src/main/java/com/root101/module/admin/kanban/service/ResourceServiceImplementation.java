@@ -1,4 +1,4 @@
-package com.jhw.module.admin.kanban.service;
+package com.root101.module.admin.kanban.service;
 
 import com.root101.clean.core.domain.services.ResourceHandler;
 import com.root101.clean.core.domain.services.ResourceBundleUtils;
