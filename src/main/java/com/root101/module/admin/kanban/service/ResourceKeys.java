@@ -23,6 +23,4 @@ package com.root101.module.admin.kanban.service;
  */
 public class ResourceKeys {
 
-    public static final String KEY_MODULE_NAME_KANBAN = "com.root101.module.admin.kanban.name";
-
 }
