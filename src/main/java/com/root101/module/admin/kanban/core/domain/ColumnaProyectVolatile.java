@@ -62,7 +62,7 @@ public class ColumnaProyectVolatile extends VolatileDomainObject {
         public static LightWeigth from(Integer idProyecto, Integer idColumna) {
             return new LightWeigth(idProyecto, idColumna);
         }
-        
+
         public final Integer idProyecto;
         public final Integer idColumna;
 
