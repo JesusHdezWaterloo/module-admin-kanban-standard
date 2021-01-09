@@ -111,7 +111,7 @@ public class ProyectoDomain extends EntityDomainObjectValidated {
         }
         //pongo el ultimo token completo
         fix += spl.nextToken().trim();
-        
+
         return fix;
     }
 
